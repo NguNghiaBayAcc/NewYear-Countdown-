@@ -2,7 +2,7 @@ let day = document.getElementById('day-box');
 let hr = document.getElementById('hr-box');
 let min = document.getElementById('min-box');
 let sec = document.getElementById('sec-box');
-let endDate = new Date('January 1, 2023 00:00:00');
+let endDate = new Date('January 1, 2026 00:00:00');
 let endTime = endDate.getTime();
 
 function countdown() {
